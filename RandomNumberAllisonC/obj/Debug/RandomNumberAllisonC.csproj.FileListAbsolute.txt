@@ -1,0 +1,9 @@
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 3 (Decisions)\RandomNumberAllisonC\RandomNumberAllisonC\bin\Debug\RandomNumberAllisonC.exe.config
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 3 (Decisions)\RandomNumberAllisonC\RandomNumberAllisonC\bin\Debug\RandomNumberAllisonC.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 3 (Decisions)\RandomNumberAllisonC\RandomNumberAllisonC\bin\Debug\RandomNumberAllisonC.pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 3 (Decisions)\RandomNumberAllisonC\RandomNumberAllisonC\obj\Debug\RandomNumberAllisonC.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 3 (Decisions)\RandomNumberAllisonC\RandomNumberAllisonC\obj\Debug\RandomNumberAllisonC.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 3 (Decisions)\RandomNumberAllisonC\RandomNumberAllisonC\obj\Debug\RandomNumberAllisonC.frmRandomNumber.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 3 (Decisions)\RandomNumberAllisonC\RandomNumberAllisonC\obj\Debug\RandomNumberAllisonC.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 3 (Decisions)\RandomNumberAllisonC\RandomNumberAllisonC\obj\Debug\RandomNumberAllisonC.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 3 (Decisions)\RandomNumberAllisonC\RandomNumberAllisonC\obj\Debug\RandomNumberAllisonC.pdb
