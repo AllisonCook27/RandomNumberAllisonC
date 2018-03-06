@@ -33,10 +33,11 @@
             this.lblEnter = new System.Windows.Forms.Label();
             this.lblRight = new System.Windows.Forms.Label();
             this.mnuMenu = new System.Windows.Forms.MenuStrip();
-            this.txtInput = new System.Windows.Forms.TextBox();
-            this.picCheck = new System.Windows.Forms.PictureBox();
             this.mniFile = new System.Windows.Forms.ToolStripMenuItem();
             this.mniExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtInput = new System.Windows.Forms.TextBox();
+            this.picCheck = new System.Windows.Forms.PictureBox();
+            this.btnPlay = new System.Windows.Forms.Button();
             this.mnuMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCheck)).BeginInit();
             this.SuspendLayout();
@@ -44,7 +45,7 @@
             // btnGuess
             // 
             this.btnGuess.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuess.Location = new System.Drawing.Point(158, 117);
+            this.btnGuess.Location = new System.Drawing.Point(138, 142);
             this.btnGuess.Name = "btnGuess";
             this.btnGuess.Size = new System.Drawing.Size(100, 35);
             this.btnGuess.TabIndex = 0;
@@ -56,7 +57,7 @@
             // 
             this.lblWrong.AutoSize = true;
             this.lblWrong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWrong.Location = new System.Drawing.Point(21, 181);
+            this.lblWrong.Location = new System.Drawing.Point(21, 218);
             this.lblWrong.Name = "lblWrong";
             this.lblWrong.Size = new System.Drawing.Size(144, 20);
             this.lblWrong.TabIndex = 1;
@@ -66,7 +67,7 @@
             // 
             this.lblEnter.AutoSize = true;
             this.lblEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnter.Location = new System.Drawing.Point(21, 51);
+            this.lblEnter.Location = new System.Drawing.Point(21, 89);
             this.lblEnter.Name = "lblEnter";
             this.lblEnter.Size = new System.Drawing.Size(262, 20);
             this.lblEnter.TabIndex = 2;
@@ -76,7 +77,7 @@
             // 
             this.lblRight.AutoSize = true;
             this.lblRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRight.Location = new System.Drawing.Point(21, 181);
+            this.lblRight.Location = new System.Drawing.Point(21, 218);
             this.lblRight.Name = "lblRight";
             this.lblRight.Size = new System.Drawing.Size(154, 20);
             this.lblRight.TabIndex = 3;
@@ -92,22 +93,6 @@
             this.mnuMenu.TabIndex = 4;
             this.mnuMenu.Text = "menuStrip1";
             // 
-            // txtInput
-            // 
-            this.txtInput.Location = new System.Drawing.Point(304, 51);
-            this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(100, 20);
-            this.txtInput.TabIndex = 5;
-            // 
-            // picCheck
-            // 
-            this.picCheck.Location = new System.Drawing.Point(273, 160);
-            this.picCheck.Name = "picCheck";
-            this.picCheck.Size = new System.Drawing.Size(113, 78);
-            this.picCheck.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCheck.TabIndex = 6;
-            this.picCheck.TabStop = false;
-            // 
             // mniFile
             // 
             this.mniFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -119,9 +104,36 @@
             // mniExit
             // 
             this.mniExit.Name = "mniExit";
-            this.mniExit.Size = new System.Drawing.Size(152, 22);
+            this.mniExit.Size = new System.Drawing.Size(92, 22);
             this.mniExit.Text = "Exit";
             this.mniExit.Click += new System.EventHandler(this.mniExit_Click);
+            // 
+            // txtInput
+            // 
+            this.txtInput.Location = new System.Drawing.Point(304, 89);
+            this.txtInput.Name = "txtInput";
+            this.txtInput.Size = new System.Drawing.Size(100, 20);
+            this.txtInput.TabIndex = 5;
+            // 
+            // picCheck
+            // 
+            this.picCheck.Location = new System.Drawing.Point(273, 171);
+            this.picCheck.Name = "picCheck";
+            this.picCheck.Size = new System.Drawing.Size(113, 78);
+            this.picCheck.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCheck.TabIndex = 6;
+            this.picCheck.TabStop = false;
+            // 
+            // btnPlay
+            // 
+            this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay.Location = new System.Drawing.Point(138, 42);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(100, 35);
+            this.btnPlay.TabIndex = 7;
+            this.btnPlay.Text = "Play";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // frmRandomNumber
             // 
@@ -129,6 +141,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Salmon;
             this.ClientSize = new System.Drawing.Size(416, 261);
+            this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.picCheck);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.lblRight);
@@ -158,6 +171,7 @@
         private System.Windows.Forms.PictureBox picCheck;
         private System.Windows.Forms.ToolStripMenuItem mniFile;
         private System.Windows.Forms.ToolStripMenuItem mniExit;
+        private System.Windows.Forms.Button btnPlay;
     }
 }
 
