@@ -34,8 +34,10 @@ namespace RandomNumberAllisonC
             //hide text before it starts
             lblRight.Hide();
             lblWrong.Hide();
-            //disable play again button
+            //disable Guess button
             btnGuess.Enabled = false;
+            //disable textbox button
+            txtInput.Enabled = false;
         }
 
         private void mniExit_Click(object sender, EventArgs e)
@@ -89,10 +91,15 @@ namespace RandomNumberAllisonC
             btnGuess.Enabled = true;
             //disable play button
             btnPlay.Enabled = false;
-            //disable textbox button
-            txtInput.Enabled = false;
+            //enable textbox button
+            txtInput.Enabled = true;
             //change play text to play agian
             btnPlay.Text = "Play Again";
+            //Clear textbox
+            txtInput.Text = "";
+            //hide text if using agian without starting up
+            lblRight.Hide();
+            lblWrong.Hide();
         }
     }
 }
