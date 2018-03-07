@@ -84,9 +84,15 @@ namespace RandomNumberAllisonC
         private void btnPlay_Click(object sender, EventArgs e)
         {
             //get random number
-            int randomNumber = randomNumberGenerator.Next(MIN, MAX + 1);
+            randomNumber = randomNumberGenerator.Next(MIN, MAX + 1);
             //enable play button
             btnGuess.Enabled = true;
+            //disable play button
+            btnPlay.Enabled = false;
+            //disable textbox button
+            txtInput.Enabled = false;
+            //change play text to play agian
+            btnPlay.Text = "Play Again";
         }
     }
 }

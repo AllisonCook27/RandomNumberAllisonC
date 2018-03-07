@@ -44,13 +44,14 @@
             // 
             // btnGuess
             // 
+            this.btnGuess.BackColor = System.Drawing.Color.Snow;
             this.btnGuess.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuess.Location = new System.Drawing.Point(138, 142);
+            this.btnGuess.Location = new System.Drawing.Point(152, 157);
             this.btnGuess.Name = "btnGuess";
             this.btnGuess.Size = new System.Drawing.Size(100, 35);
             this.btnGuess.TabIndex = 0;
             this.btnGuess.Text = "Guess";
-            this.btnGuess.UseVisualStyleBackColor = true;
+            this.btnGuess.UseVisualStyleBackColor = false;
             this.btnGuess.Click += new System.EventHandler(this.btnGuess_Click);
             // 
             // lblWrong
@@ -67,7 +68,7 @@
             // 
             this.lblEnter.AutoSize = true;
             this.lblEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnter.Location = new System.Drawing.Point(21, 89);
+            this.lblEnter.Location = new System.Drawing.Point(21, 104);
             this.lblEnter.Name = "lblEnter";
             this.lblEnter.Size = new System.Drawing.Size(262, 20);
             this.lblEnter.TabIndex = 2;
@@ -110,7 +111,7 @@
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(304, 89);
+            this.txtInput.Location = new System.Drawing.Point(304, 106);
             this.txtInput.Name = "txtInput";
             this.txtInput.Size = new System.Drawing.Size(100, 20);
             this.txtInput.TabIndex = 5;
@@ -126,13 +127,14 @@
             // 
             // btnPlay
             // 
+            this.btnPlay.BackColor = System.Drawing.Color.Snow;
             this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlay.Location = new System.Drawing.Point(138, 42);
+            this.btnPlay.Location = new System.Drawing.Point(152, 52);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(100, 35);
             this.btnPlay.TabIndex = 7;
             this.btnPlay.Text = "Play";
-            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.UseVisualStyleBackColor = false;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // frmRandomNumber
