@@ -55,6 +55,9 @@ namespace RandomNumberAllisonC
             //disable play again button
             btnPlay.Enabled = false;
 
+            //show image
+            picCheck.Show();
+
             try
             {
                 //Try to set it as a number
@@ -100,6 +103,8 @@ namespace RandomNumberAllisonC
             //hide text if using agian without starting up
             lblRight.Hide();
             lblWrong.Hide();
+            //show no image
+            picCheck.Hide();
         }
     }
 }
